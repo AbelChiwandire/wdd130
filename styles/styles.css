@@ -1,3 +1,8 @@
+:root {
+    --colour: darkblue;
+    --text-alignment: center;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -8,7 +13,7 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color:darkblue;
+    color: var(--colour);
 }
 main img {
     width: 150px;
@@ -30,14 +35,14 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(text-alignment);
 }
 aside img {
     width: 200px;
-    height: auto;;
+    height: auto;
 }
 footer {
     margin-top: 15px;
     border-top: 1px solid black;
-    text-align: center;
+    text-align: var(text-alignment);
 }
