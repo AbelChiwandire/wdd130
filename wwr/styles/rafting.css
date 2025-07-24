@@ -1,11 +1,7 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #152A3A;
-    --secondary-rgb: 21, 42, 58;
-    --accent1-color: #000;
-    --accent1-rgb: 0, 0, 0;
     --accent2-color: #C28840;
-    --accent2-rgb: 194, 136, 64;
     --heading-font: Montserrat, sans-serif;
     --body-font: Roboto, sans-serif;
 }
@@ -67,15 +63,14 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: var(--accent2-color);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 article {
     position: absolute;
     bottom: 0;
     left: 180px;
-    background-color: rgba(194, 136, 64, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     color: var(--accent1-color);
     font-weight: 600;
 
@@ -90,7 +85,7 @@ header {
     display: grid;
     grid-template-columns: 120px 1fr;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 
 }
 
@@ -107,9 +102,13 @@ header nav {
 }
 
 header nav a {
-    color: var(--accent2-color);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
+}
+
+header nav a:hover {
+    color: var(--accent2-color);
 }
 
 .history {
@@ -145,6 +144,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    border-top: 1px solid var(--secondary-color);
 }
 
 footer nav {
