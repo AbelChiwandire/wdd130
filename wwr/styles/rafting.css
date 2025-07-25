@@ -1,6 +1,7 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #152A3A;
+    --accent1-color: #000;
     --accent2-color: #C28840;
     --heading-font: Montserrat, sans-serif;
     --body-font: Roboto, sans-serif;
@@ -143,11 +144,15 @@ section h2 {
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 600px 1fr;
     align-items: center;
     border-top: 1px solid var(--secondary-color);
 }
 
-footer nav {
+footer p {
+    text-align: end;
+}
+
+.socialmedia {
     text-align: end;
 }
