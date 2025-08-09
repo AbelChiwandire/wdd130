@@ -22,10 +22,10 @@
             <header>
                 <img src="images/logo.png" alt="Whitewater Logo">
                 <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="trips.html">Trips</a>
-                    <a href="contact.html">Contact Us</a>
+                    <a href="index.html" class="underline-link">Home</a>
+                    <a href="about.html" class="underline-link">About</a>
+                    <a href="trips.html" class="underline-link">Trips</a>
+                    <a href="contact.html" class="underline-link">Contact Us</a>
                 </nav>
             </header>
             <h1>Book With Us</h1>
@@ -59,49 +59,46 @@
                 <p>From R2500 • Age 16+ • Group discounts</p>
                 <button type="submit" class="btn-secondary">Book Now</button>
                 </div>
-                
-                <div class="trip-card fullwidth">
-                    <img class="image_fill" src="images/trip4.jpg" alt="Rafting trip 4">
-                    <div class="content">
-                        <p>Orange River • Multi-Day • Advanced</p>
-                        <p>High-adrenaline expedition with challenging rapids, overnight camping and amazing views.</p>
-                        <p>From R3000 • Age 16+ • Group discounts</p>
-                        <button type="submit" class="btn-secondary">Book Now</button>
-                    </div>
-                </div>
-                
-                <div class="trip-card fullwidth" id="family-float">
-                    <img class="image_fill" src="images/trip5.jpg" alt="Rafting trip 5">
-                    <div class="content">
-                        <p>Vaal River • 1 Hour • Beginner</p>
-                        <p>Calm river rafting adventure, minimal waves, perfect for family fun.</p>
-                        <p>From R1000 • Age 6+ • Group discounts</p>
-                        <button type="submit" class="btn-secondary">Book Now</button>
-                    </div>
-                </div> 
             </div>
         </section>
         <section>
             <h2>More Trips</h2>
-            <div class="more-trip-card">
-            <p>
-                <strong>Sunset Paddle:</strong>  Gentle evening ride perfect for couples and sunset chasers.<strong> From R500.</strong>
-            </p>
-            <button class="btn-secondary">Book Now</button>
-            </div>
-
-            <div class="more-trip-card">
-            <p>
-                <strong>Family Float Tour:</strong>  Safe and relaxing float ideal for kids and grandparents alike.<strong> From R400.</strong>
-            </p>
-            <button class="btn-secondary">Book Now</button>
-            </div>
-
-            <div class="more-trip-card">
-            <p></p>Not sure which adventure suits you?<p>
-            <a href="contact.html" class="link-btn">Talk to a Guide</a>
-            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Description</th>
+                        <th>From Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Sunset Paddle</strong></td>
+                        <td>Gentle evening ride perfect for couples and sunset chasers.</td>
+                        <td><a href="#" class="wireframe underline-link">Book Now</a> • R300</td>
+                    </tr>
+                    <tr>
+                        <td id="family-float"><strong>Family Float Tour</strong></td>
+                        <td>Safe and relaxing float ideal for kids and grandparents alike.</td>
+                        <td><a href="#" class="wireframe underline-link">Book Now</a> • R400</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Extreme Rapids XL</strong></td>
+                        <td>High-speed challenge for thrill-seeking adventurers.</td>
+                        <td><a href="#" class="wireframe underline-link">Book Now</a> • R950</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nature Explorer Kayak</strong></td>
+                        <td>Scenic paddle along biodiverse riverbanks and quiet waters.</td>
+                        <td><a href="#" class="wireframe underline-link">Book Now</a> • R500</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
+        <div class="align-h2 p-fix">
+        <p>Not sure which adventure suits you?</p>
+        <a href="contact.html" class="link-btn">Talk to a Guide</a>
+        </div>
         <section>
             <h2>Your Safety Comes First</h2>
             <div class="newsletter-quote safety-fix">
